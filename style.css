@@ -3,9 +3,19 @@
 :root{
     --cor-de-fundo:#ebecec;
     --branco: #FFFFFF;
+    --laranja:#EB9B00;
+    --azul-degrade :linear-gradiet(97,54deg, #002f52 35.49%, #326589 165.37%);
+    --fonte-pricipal: "Poppins";
+    
 }
 
 body  {
     background-color:var(--cor-de-fundo);
+    font-family: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight: 400;
+}
+.lista-menu__titulo{
+    -moz-animation-direction: 700;
 }
 
